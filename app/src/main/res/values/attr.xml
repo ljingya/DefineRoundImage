@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="radious" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference" />
+    <declare-styleable name="DefineRoundImage">
+        <attr name="radious" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+</resources>
